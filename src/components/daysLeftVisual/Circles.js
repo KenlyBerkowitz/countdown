@@ -10,9 +10,7 @@ function CanvasCircle(props) {
   useEffect(() => {
     if (props.is_filled)
       set_fill("#32d137");
-      // set_fill("transparent");
     else
-    // set_fill("#32d137");
       set_fill("transparent");
   }, [])
 

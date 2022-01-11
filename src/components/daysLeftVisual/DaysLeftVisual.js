@@ -25,6 +25,7 @@ function DaysLeftVisual(props) {
     }
   } 
 
+
   useEffect(() => {
     buildArr();
   }, []);
@@ -32,9 +33,7 @@ function DaysLeftVisual(props) {
 
   return (
     <div className="daysLeft-Container">
-    
       {array.map(bool => {
-        console.log(bool);
         return (
           <CanvasCircle key={getUniqueID()} is_filled={bool}/>
         )}
