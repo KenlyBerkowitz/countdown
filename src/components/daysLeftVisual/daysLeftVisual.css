@@ -1,0 +1,16 @@
+@media screen and (min-width: 481px) {
+  .daysLeft-Container {
+    display: inline-grid;
+    grid-template-columns:  repeat(20, 1fr);
+    
+  }
+}
+@media screen and (max-width: 480px) {
+  .daysLeft-Container {
+    display: inline-grid;
+    grid-template-columns:  repeat(9, 1fr);
+  }
+}
+/* align-items: center;
+justify-content: center;
+flex-direction: row; */
