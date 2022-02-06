@@ -1,3 +1,12 @@
-.circle-style {
-  padding:10px;
+
+
+@media screen and (min-width: 481px) {
+  .circle-style {
+    padding:10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .circle-style {
+    padding:7px;
+  }
 }

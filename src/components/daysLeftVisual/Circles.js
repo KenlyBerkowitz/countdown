@@ -8,8 +8,10 @@ function CanvasCircle(props) {
   const [fill, set_fill] = useState();
 
   useEffect(() => {
-    if (props.is_filled)
+    if (props.Acolor == "green" )
       set_fill("#32d137");
+    else if (props.Acolor == "orange" )
+      set_fill("#ff702d");
     else
       set_fill("transparent");
   }, [])
